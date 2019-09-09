@@ -1,7 +1,10 @@
 # Automated Workflow Execution with Dynamically Allocated Cloud/Local Resources
 
+**Spring 2019 Cloud Computing Class Project**
+
 ## Introduction
 Workflow Management System: [Pegasus][pegasus]
+
 Job Scheduler (Cloud): [HTCondor Annex][htcondor_annex]
 
 We integrated the automated workflow management system **Pegasus** with high-throughput computing job scheduling system **HTCondor** to create a AI-optimized Platform-as-a-Service for users to run their workflows reducing the need to manually compare and select the allocation of cloud and/or local computing resources.
