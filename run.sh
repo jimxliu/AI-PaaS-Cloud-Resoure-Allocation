@@ -61,7 +61,7 @@ then
 fi
 
 # Go to workflow folder
-cd ~/pipeline_mix/
+cd ./pipeline_mix/
 
 # Clean up previous workflow files
 echo "remove previous workflows..."

@@ -1,4 +1,2 @@
 # file-based replica catalog: 2019-04-30T19:06:01.855-06:00
-output.png file:///users/xl6v8/pipeline/output/output.png site="local"
-output.png file:///users/xl6v8/pipeline_ec2/output/output.png site="local"
-output.png file:///users/xl6v8/pipeline_mix/output/output.png site="local"
+output.png file:///home/USERNAME/REPONAME/pipeline_mix/output/output.png site="local"
