@@ -1,0 +1,21 @@
+1556672908 INTERNAL *** MONITORD_STARTED ***
+1556672904 INTERNAL *** DAGMAN_STARTED 266.0 ***
+1556672908 create_dir_pipeline_0_local SUBMIT 267.0 local - 1
+1556672909 create_dir_pipeline_0_local EXECUTE 267.0 local - 1
+1556672911 create_dir_pipeline_0_local JOB_TERMINATED 267.0 local - 1
+1556672913 create_dir_pipeline_0_local JOB_SUCCESS 0 local - 1
+1556672913 create_dir_pipeline_0_local POST_SCRIPT_STARTED 267.0 local - 1
+1556672913 create_dir_pipeline_0_local POST_SCRIPT_TERMINATED 267.0 local - 1
+1556672918 create_dir_pipeline_0_local POST_SCRIPT_SUCCESS 0 local - 1
+1556672923 stage_in_remote_local_0_0 SUBMIT 268.0 local - 2
+1556672923 stage_in_remote_local_0_0 EXECUTE 268.0 local - 2
+1556672928 stage_in_remote_local_0_0 JOB_TERMINATED 268.0 local - 2
+1556672928 stage_in_remote_local_0_0 JOB_SUCCESS 0 local - 2
+1556672928 stage_in_remote_local_0_0 POST_SCRIPT_STARTED 268.0 local - 2
+1556672928 stage_in_remote_local_0_0 POST_SCRIPT_TERMINATED 268.0 local - 2
+1556672933 stage_in_remote_local_0_0 POST_SCRIPT_SUCCESS 0 local - 2
+1556672939 pipeline_sh_ID0000001 SUBMIT 269.0 condorpool - 3
+1556672953 pipeline_sh_ID0000001 EXECUTE 269.0 condorpool - 3
+1556672961 pipeline_sh_ID0000001 JOB_TERMINATED 269.0 condorpool - 3
+1556672964 pipeline_sh_ID0000001 JOB_SUCCESS 0 condorpool - 3
+1556672964 pipeline_sh_ID0000001 POST_SCRIPT_STARTED 269.0 condorpool - 3

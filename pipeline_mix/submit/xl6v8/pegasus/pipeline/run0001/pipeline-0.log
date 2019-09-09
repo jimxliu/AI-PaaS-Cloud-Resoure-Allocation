@@ -1,0 +1,59 @@
+000 (267.000.000) 04/30 21:08:28 Job submitted from host: <130.127.215.158:30000?addrs=130.127.215.158-30000&noUDP&sock=31491_1968_5>
+    DAG Node: create_dir_pipeline_0_local
+    pool:local
+...
+001 (267.000.000) 04/30 21:08:29 Job executing on host: <130.127.215.158:30000?addrs=130.127.215.158-30000&noUDP&sock=31497_3c5a_60>
+...
+005 (267.000.000) 04/30 21:08:31 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (268.000.000) 04/30 21:08:43 Job submitted from host: <130.127.215.158:30000?addrs=130.127.215.158-30000&noUDP&sock=31491_1968_5>
+    DAG Node: stage_in_remote_local_0_0
+    pool:local
+...
+001 (268.000.000) 04/30 21:08:43 Job executing on host: <130.127.215.158:30000?addrs=130.127.215.158-30000&noUDP&sock=31497_3c5a_61>
+...
+005 (268.000.000) 04/30 21:08:48 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (269.000.000) 04/30 21:08:59 Job submitted from host: <130.127.215.158:30000?addrs=130.127.215.158-30000&noUDP&sock=31491_1968_5>
+    DAG Node: pipeline_sh_ID0000001
+    pool:condorpool
+...
+001 (269.000.000) 04/30 21:09:13 Job executing on host: <130.127.215.158:30000?addrs=130.127.215.158-30000&noUDP&sock=31491_1968_4>
+...
+006 (269.000.000) 04/30 21:09:21 Image size of job updated: 2
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (269.000.000) 04/30 21:09:21 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	14512  -  Run Bytes Sent By Job
+	10755026  -  Run Bytes Received By Job
+	14512  -  Total Bytes Sent By Job
+	10755026  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    10533    12500  12063136 
+	   Memory (MB)          :        0        1       981 
+...

@@ -1,0 +1,42 @@
+{
+  "client": "pegasus-plan",
+  "version": "4.9.1",
+  "dax_api": "python",
+  "type": "metrics",
+  "start_time": 1.55667290076E9,
+  "end_time": 1.556672903817E9,
+  "duration": 3.057,
+  "exitcode": 0,
+  "root_wf_uuid": "ff42ec26-834e-4754-956f-a34bbb69eeb1",
+  "wf_uuid": "ff42ec26-834e-4754-956f-a34bbb69eeb1",
+  "data_config": "condorio",
+  "planner_args": "--conf pegasus.properties --dax pipeline.dax --dir /users/xl6v8/pipeline_mix/submit --input-dir /users/xl6v8/pipeline_mix/input --output-dir /users/xl6v8/pipeline_mix/output --cleanup leaf --force --sites condorpool --submit ",
+  "uses_pmc": false,
+  "wf_metrics": {
+    "compute_tasks": 1,
+    "dax_tasks": 0,
+    "dag_tasks": 0,
+    "total_tasks": 1,
+    "deleted_tasks": 0,
+    "dax_input_files": 2,
+    "dax_inter_files": 0,
+    "dax_output_files": 1,
+    "dax_total_files": 3,
+    "compute_jobs": 1,
+    "clustered_jobs": 0,
+    "si_tx_jobs": 1,
+    "so_tx_jobs": 1,
+    "inter_tx_jobs": 0,
+    "reg_jobs": 1,
+    "cleanup_jobs": 1,
+    "create_dir_jobs": 1,
+    "dax_jobs": 0,
+    "dag_jobs": 0,
+    "chmod_jobs": 0,
+    "total_jobs": 6
+  },
+  "app_metrics": {
+    "name": "pegasus-tutorial"
+  }
+}
+

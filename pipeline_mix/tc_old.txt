@@ -1,0 +1,44 @@
+tr curl {
+    site condorpool {
+        pfn "/usr/bin/curl"
+        arch "x86_64"
+        os "LINUX"
+        type "INSTALLED"
+    }
+}
+
+tr wc {
+    site condorpool {
+        pfn "/usr/bin/wc"
+        arch "x86_64"
+        os "LINUX"
+        type "INSTALLED"
+    }
+}
+
+tr virtualenv {
+    site condorpool {
+        pfn "/usr/local/bin/virtualenv"
+        arch "x86_64"
+        os "LINUX"
+        type "INSTALLED"
+    }
+}
+
+tr pip {
+    site condorpool {
+        pfn "/usr/bin/pip"
+        arch "x86_64"
+        os "LINUX"
+        type "INSTALLED"
+    }
+}
+
+tr python {
+    site condorpool {
+        pfn "/usr/bin/python"
+        arch "x86_64"
+        os "LINUX"
+        type "INSTALLED"
+    }
+}

@@ -1,0 +1,44 @@
+######################################################################
+# PEGASUS WMS GENERATED SUBMIT FILE
+# DAG : pipeline, Index = 0, Count = 1
+# SUBMIT FILE NAME : pipeline_sh_ID0000001.sub
+######################################################################
+stream_error  = false
+stream_output = false
+environment = "CONDOR_JOBID=$(cluster).$(process) PEGASUS_WF_UUID=ff42ec26-834e-4754-956f-a34bbb69eeb1 PEGASUS_WF_LABEL=pipeline PEGASUS_DAG_JOB_ID=pipeline_sh_ID0000001 PEGASUS_SITE=condorpool"
+copy_to_spool = false
+error = /users/xl6v8/pipeline_mix/submit/xl6v8/pegasus/pipeline/run0001//00/00/pipeline_sh_ID0000001.err
+executable = /users/xl6v8/pipeline_mix/submit/xl6v8/pegasus/pipeline/run0001/00/00/pipeline_sh_ID0000001.sh
+initialdir = /users/xl6v8/split/scratch/xl6v8/pegasus/pipeline/run0001
+log = /users/xl6v8/pipeline_mix/submit/xl6v8/pegasus/pipeline/run0001/pipeline-0.log
+notification = NEVER
+output = /users/xl6v8/pipeline_mix/submit/xl6v8/pegasus/pipeline/run0001//00/00/pipeline_sh_ID0000001.out
+periodic_release = False
+periodic_remove = (JobStatus == 5) && ((CurrentTime - EnteredCurrentStatus) > 10)
+priority = 20
+should_transfer_files = YES
+submit_event_user_notes = pool:condorpool
+transfer_executable = true
+transfer_input_files = rgb2grey.py,image.png,dax-pipeline.sh-4_0,/users/xl6v8/pipeline_mix/submit/xl6v8/pegasus/pipeline/run0001/00/00/stage_in_remote_local_0_0.meta,/usr/share/pegasus/sh/pegasus-lite-common.sh,/users/xl6v8/pipeline_mix/submit/xl6v8/pegasus/pipeline/run0001/pegasus-worker-4.9.1-x86_64_ubuntu_16.tar.gz
+transfer_output_files = output.png,
+universe = vanilla
+when_to_transfer_output = ON_EXIT
++pegasus_generator = "Pegasus"
++pegasus_root_wf_uuid = "ff42ec26-834e-4754-956f-a34bbb69eeb1"
++pegasus_wf_uuid = "ff42ec26-834e-4754-956f-a34bbb69eeb1"
++pegasus_version = "4.9.1"
++pegasus_wf_name = "pipeline-0"
++pegasus_wf_app = "pegasus-tutorial"
++pegasus_wf_time = "20190430T190820-0600"
++pegasus_wf_xformation = "dax::pipeline.sh:4.0"
++pegasus_wf_dax_job_id = "ID0000001"
++pegasus_wf_dag_job_id = "pipeline_sh_ID0000001"
++pegasus_job_class = 1
++pegasus_site = "condorpool"
++pegasus_job_runtime = 0
++pegasus_cores = 1
++pegasus_cluster_size = 1
+queue
+######################################################################
+# END OF SUBMIT FILE
+######################################################################

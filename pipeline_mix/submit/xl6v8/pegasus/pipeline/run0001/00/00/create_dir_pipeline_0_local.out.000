@@ -1,0 +1,10 @@
+2019-04-30 21:08:29,702    INFO:  Reading URL pairs from stdin
+2019-04-30 21:08:29,702    INFO:  1 transfers loaded
+2019-04-30 21:08:29,702    INFO:  PATH=/usr/bin:/bin
+2019-04-30 21:08:29,703    INFO:  LD_LIBRARY_PATH=
+2019-04-30 21:08:29,740    INFO:  --------------------------------------------------------------------------------
+2019-04-30 21:08:29,740    INFO:  Starting transfers - attempt 1
+2019-04-30 21:08:31,743    INFO:  /bin/mkdir -p '/users/xl6v8/split/scratch/xl6v8/pegasus/pipeline/run0001' 
+2019-04-30 21:08:31,767    INFO:  --------------------------------------------------------------------------------
+2019-04-30 21:08:31,768    INFO:  Stats: no local files in the transfer set
+2019-04-30 21:08:31,768    INFO:  All transfers completed successfully.

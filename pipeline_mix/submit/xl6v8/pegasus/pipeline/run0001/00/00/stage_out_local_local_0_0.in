@@ -1,0 +1,13 @@
+[
+ { "type": "transfer",
+   "linkage": "output",
+   "lfn": "output.png",
+   "id": 1,
+   "verify_checksum_remote": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///users/xl6v8/split/scratch/xl6v8/pegasus/pipeline/run0001/./output.png" }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///users/xl6v8/pipeline_mix/output/output.png" }
+   ] }
+]

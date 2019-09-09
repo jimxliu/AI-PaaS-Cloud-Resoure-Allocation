@@ -1,0 +1,14 @@
+[
+  {
+    "_type": "file", 
+    "_id": "output.png", 
+    "_attributes": {
+      "ctime": "2019-04-30T21:09:21-04:00", 
+      "checksum.timing": "0.046", 
+      "user": "xl6v8", 
+      "checksum.type": "sha256", 
+      "checksum.value": "0fb6b732c769a74bbb5ead19b49dd8db3ce87f33aac6c4508e5115887fa0117c", 
+      "size": "7707"
+    }
+  }
+]

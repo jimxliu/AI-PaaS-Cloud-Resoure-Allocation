@@ -1,0 +1,37 @@
+[
+ { "type": "transfer",
+   "linkage": "input",
+   "lfn": "rgb2grey.py",
+   "id": 1,
+   "generate_checksum": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///users/xl6v8/pipeline_mix/code/rgb2grey.py", "priority": 100 }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///users/xl6v8/split/scratch/xl6v8/pegasus/pipeline/run0001/./rgb2grey.py" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "input",
+   "lfn": "image.png",
+   "id": 2,
+   "generate_checksum": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///users/xl6v8/pipeline_mix/input/image.png", "priority": 100 }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///users/xl6v8/split/scratch/xl6v8/pegasus/pipeline/run0001/./image.png" }
+   ] }
+ ,
+ { "type": "transfer",
+   "linkage": "input",
+   "lfn": "dax-pipeline.sh-4_0",
+   "id": 3,
+   "generate_checksum": true,
+   "src_urls": [
+     { "site_label": "local", "url": "file:///users/xl6v8/pipeline_mix/code/pipeline.sh", "priority": 100 }
+   ],
+   "dest_urls": [
+     { "site_label": "local", "url": "file:///users/xl6v8/split/scratch/xl6v8/pegasus/pipeline/run0001/./dax-pipeline.sh-4_0" }
+   ] }
+]

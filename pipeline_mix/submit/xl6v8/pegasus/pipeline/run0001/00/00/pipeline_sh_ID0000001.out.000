@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invocation xmlns="http://pegasus.isi.edu/schema/invocation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pegasus.isi.edu/schema/invocation http://pegasus.isi.edu/schema/iv-2.3.xsd" version="2.3" start="2019-04-30T21:09:14.348-04:00" duration="6.925" transformation="dax::pipeline.sh:4.0" derivation="ID0000001" resource="condorpool" wf-label="pipeline" wf-stamp="2019-04-30T16:29:29-06:00" interface="eth0" hostaddr="130.127.215.158" hostname="pcvm1-3.instageni.clemson.edu" pid="5994" uid="20001" user="xl6v8" gid="658" group="ch--Calyam_UMi1" umask="0022">
+  <mainjob start="2019-04-30T21:09:14.354-04:00" duration="6.919" pid="5995">
+    <usage utime="5.010" stime="1.141" maxrss="60628" minflt="119863" majflt="0" nswap="0" inblock="0" outblock="94392" msgsnd="0" msgrcv="0" nsignals="0" nvcsw="150" nivcsw="1178"/>
+    <status raw="0"><regular exitcode="0"/></status>
+    <statcall error="0">
+      <file name="/users/xl6v8/condor-8.8.2/local/execute/dir_5893/dax-pipeline.sh-4_0">23212F62696E2F626173680A73657420</file>
+      <statinfo mode="0100755" size="187" inode="895038" nlink="1" blksize="4096" blocks="8" mtime="2019-04-30T21:09:13-04:00" atime="2019-04-30T21:09:13-04:00" ctime="2019-04-30T21:09:13-04:00" uid="20001" user="xl6v8" gid="658" group="ch--Calyam_UMi1"/>
+    </statcall>
+    <argument-vector>
+      <arg nr="1">rgb2grey.py</arg>
+      <arg nr="2">image.png</arg>
+      <arg nr="3">output.png</arg>
+    </argument-vector>
+  </mainjob>
+  <jobids condor="269.0"/>
+  <cwd>/users/xl6v8/condor-8.8.2/local/execute/dir_5893</cwd>
+  <usage utime="0.000" stime="0.007" maxrss="2288" minflt="117" majflt="0" nswap="0" inblock="0" outblock="0" msgsnd="0" msgrcv="0" nsignals="0" nvcsw="1" nivcsw="3"/>
+  <machine page-size="4096">
+    <stamp>2019-04-30T21:09:14.348-04:00</stamp>
+    <uname system="linux" nodename="node-0.test.ch-geni-net.instageni.clemson.edu" release="4.15.0-39-generic" machine="x86_64">#42-Ubuntu SMP Tue Oct 23 15:48:01 UTC 2018</uname>
+    <linux>
+      <ram total="1005560" free="173100" shared="388" buffer="150584"/>
+      <swap total="1048572" free="1045244"/>
+      <boot idle="1392939.520">2019-04-14T16:41:47.149-04:00</boot>
+      <cpu count="1" speed="2667" vendor="GenuineIntel">Intel(R) Xeon(R) CPU X5650 @ 2.67GHz</cpu>
+      <load min1="0.22" min5="0.24" min15="0.13"/>
+      <procs total="98" running="1" sleeping="64" other="33" vmsize="3589216" rss="404148"/>
+      <task total="107" running="1" sleeping="73" other="33"/>
+    </linux>
+  </machine>
+  <statcall error="0" id="final" lfn="output.png">
+    <file name="/users/xl6v8/condor-8.8.2/local/execute/dir_5893/output.png">89504E470D0A1A0A0000000D49484452</file>
+    <statinfo mode="0100644" size="7707" inode="895168" nlink="1" blksize="4096" blocks="16" mtime="2019-04-30T21:09:21-04:00" atime="2019-04-30T21:09:21-04:00" ctime="2019-04-30T21:09:21-04:00" uid="20001" user="xl6v8" gid="658" group="ch--Calyam_UMi1"/>
+    <checksum type="sha256" value="0fb6b732c769a74bbb5ead19b49dd8db3ce87f33aac6c4508e5115887fa0117c" timing="0.046"/>
+  </statcall>
+  <statcall error="0" id="stdin">
+    <file name="/dev/null"/>
+    <statinfo mode="020666" size="0" inode="6" nlink="1" blksize="4096" blocks="0" mtime="2019-04-14T16:42:37-04:00" atime="2019-04-14T16:42:37-04:00" ctime="2019-04-14T16:42:37-04:00" uid="0" user="root" gid="0" group="root"/>
+  </statcall>
+  <statcall error="0" id="stdout">
+    <temporary name="/users/xl6v8/condor-8.8.2/local/execute/dir_5893/ks.out.aHugvE" descriptor="3"/>
+    <statinfo mode="0100600" size="479" inode="895079" nlink="1" blksize="4096" blocks="8" mtime="2019-04-30T21:09:20-04:00" atime="2019-04-30T21:09:14-04:00" ctime="2019-04-30T21:09:20-04:00" uid="20001" user="xl6v8" gid="658" group="ch--Calyam_UMi1"/>
+    <data>New python executable in /users/xl6v8/condor-8.8.2/local/execute/dir_5893/env2.7/bin/python
+Installing setuptools, pip, wheel...
+done.
+Requirement already up-to-date: pip in ./env2.7/lib/python2.7/site-packages (19.1)
+Collecting Pillow
+  Using cached https://files.pythonhosted.org/packages/b6/4b/5adc1109908266554fb978154c797c7d71aba43dd15508d8c1565648f6bc/Pillow-6.0.0-cp27-cp27mu-manylinux1_x86_64.whl
+Installing collected packages: Pillow
+Successfully installed Pillow-6.0.0
+</data>
+  </statcall>
+  <statcall error="0" id="stderr">
+    <temporary name="/users/xl6v8/condor-8.8.2/local/execute/dir_5893/ks.err.WzBKpK" descriptor="4"/>
+    <statinfo mode="0100600" size="426" inode="895080" nlink="1" blksize="4096" blocks="8" mtime="2019-04-30T21:09:19-04:00" atime="2019-04-30T21:09:14-04:00" ctime="2019-04-30T21:09:19-04:00" uid="20001" user="xl6v8" gid="658" group="ch--Calyam_UMi1"/>
+    <data>DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won&apos;t be maintained after that date. A future version of pip will drop support for Python 2.7.
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won&apos;t be maintained after that date. A future version of pip will drop support for Python 2.7.
+</data>
+  </statcall>
+  <statcall error="0" id="metadata">
+    <temporary name="/users/xl6v8/condor-8.8.2/local/execute/dir_5893/ks.meta.KQRekQ" descriptor="5"/>
+    <statinfo mode="0100600" size="0" inode="895081" nlink="1" blksize="4096" blocks="0" mtime="2019-04-30T21:09:14-04:00" atime="2019-04-30T21:09:14-04:00" ctime="2019-04-30T21:09:14-04:00" uid="20001" user="xl6v8" gid="658" group="ch--Calyam_UMi1"/>
+  </statcall>
+</invocation>

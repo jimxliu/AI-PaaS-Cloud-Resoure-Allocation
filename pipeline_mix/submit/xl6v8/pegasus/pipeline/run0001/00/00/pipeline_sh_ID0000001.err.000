@@ -1,0 +1,18 @@
+2019-04-30 21:09:14: PegasusLite: version 4.9.1
+2019-04-30 21:09:14: Executing on host pcvm1-3.instageni.clemson.edu
+
+########################[Pegasus Lite] Setting up workdir ########################
+2019-04-30 21:09:14: Not creating a new work directory as it is already set to /users/xl6v8/condor-8.8.2/local/execute/dir_5893
+
+##############[Pegasus Lite] Figuring out the worker package to use ##############
+2019-04-30 21:09:14: The job contained a Pegasus worker package
+2019-04-30 21:09:14: Warning: worker package pegasus-worker-4.9.1-x86_64_ubuntu_16.tar.gz does not seem to match the system x86_64_ubuntu_18
+2019-04-30 21:09:14: Using existing Pegasus binaries in /usr/bin
+
+##################### Setting the xbit for executables staged #####################
+
+##################### Checking file integrity for input files #####################
+@@@MONITORING_PAYLOAD - START@@@{"payload": [{"file_type": "input", "failed": 0, "duration": "0.048", "event": "check", "succeeded": 2}], "ts": 1556672954, "monitoring_event": "int.metric"}@@@MONITORING_PAYLOAD - END@@@
+
+######################[Pegasus Lite] Executing the user task ######################
+PegasusLite: exitcode 0

@@ -1,0 +1,19 @@
+{
+  "root_workflow_uuid": "ff42ec26-834e-4754-956f-a34bbb69eeb1",
+  "workflow_uuid": "ff42ec26-834e-4754-956f-a34bbb69eeb1",
+  "wf_metadata": {
+    "dax.api": "python"
+  },
+  "graph": {
+    "jobs": {
+      "stage_in_remote_local_0_0": {},
+      "register_local_0_0": {},
+      "create_dir_pipeline_0_local": {},
+      "stage_out_local_local_0_0": {},
+      "pipeline_sh_ID0000001": {
+        "size": "2048"
+      },
+      "cleanup_pipeline_0_local": {}
+    }
+  }
+}

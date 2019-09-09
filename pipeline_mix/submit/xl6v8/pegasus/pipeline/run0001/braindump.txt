@@ -1,0 +1,27 @@
+user xl6v8
+grid_dn null
+submit_hostname pcvm1-3.instageni.clemson.edu
+root_wf_uuid ff42ec26-834e-4754-956f-a34bbb69eeb1
+wf_uuid ff42ec26-834e-4754-956f-a34bbb69eeb1
+dax /users/xl6v8/pipeline_mix/pipeline.dax
+dax_label pipeline
+dax_index 0
+dax_version 3.6
+pegasus_wf_name pipeline-0
+timestamp 20190430T190820-0600
+basedir /users/xl6v8/pipeline_mix/submit
+submit_dir /users/xl6v8/pipeline_mix/submit/xl6v8/pegasus/pipeline/run0001
+planner /usr/bin/pegasus-plan
+planner_version 4.9.1
+pegasus_build 20190306234026Z
+planner_arguments "--conf pegasus.properties --dax pipeline.dax --dir /users/xl6v8/pipeline_mix/submit --input-dir /users/xl6v8/pipeline_mix/input --output-dir /users/xl6v8/pipeline_mix/output --cleanup leaf --force --sites condorpool --submit "
+jsd jobstate.log
+rundir run0001
+bindir /usr/bin
+vogroup pegasus
+uses_pmc false
+properties pegasus.1562270871690732721.properties
+condor_log pipeline-0.log
+dag pipeline-0.dag
+type dag
+notify pipeline-0.notify
